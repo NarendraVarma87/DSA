@@ -7,7 +7,8 @@ import java.util.stream.Stream;
 /* StreamAPI -> There uses of Stream in Java are mentioned below:
 Stream API is a way to express and process collections of objects.
 Enable us to perform operations like filtering, mapping,reducing and sorting.
-operations performing using stream are : filter() , map() , sorted() , reduce().
+operations performing using stream are : filter() , map() , sorted() by using 
+terminal methods like collect() , forEach() , reduce().
 */
 
 public class StreamExample {
