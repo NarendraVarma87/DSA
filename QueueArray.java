@@ -42,7 +42,7 @@ public class QueueArray {
 
     public void pop() {
         if (isEmpty()) {
-            System.out.println("queque underflow error0!");
+            System.out.println("queque underflow error!");
         } else {
             int temp = array[front];
             System.out.println(temp);
