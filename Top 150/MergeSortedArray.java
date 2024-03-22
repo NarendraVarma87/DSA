@@ -18,7 +18,7 @@ public class MergeSortedArray {
         for (int i = 0; i < n; i++) {
             nums1[m + i] = nums2[i];
         }
-
+        // Arrays.sort(num1);
         for (int k = 1; k < nums1.length; k++) {
             int current = nums1[k];
             int l = k - 1;
