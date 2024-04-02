@@ -10,9 +10,9 @@ public class BiFunctionDemo {
         BiFunction<String, String, String> str = (t, u) -> (t.concat(u));
         BiFunction<String, String, Boolean> str2 = (in1, in2) -> (in1.equals(in2));
 
-        System.out.println(biFunction.apply(130, 70));
-        System.out.println(substraction.apply(265, 123));
-        System.out.println(str.apply("Hello ", "World"));
-        System.out.println(str2.apply("narendra", "narendra"));
+        System.out.println(biFunction.apply(130, 70)); //200
+        System.out.println(substraction.apply(265, 123)); //142
+        System.out.println(str.apply("Hello ", "World")); //Hello World
+        System.out.println(str2.apply("narendra", "narendra")); //true
     }
 }
